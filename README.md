@@ -8,4 +8,5 @@ How to run test
 Features you can develop
 ===
 
-	Write a form object to wrap Album and Person models
+  Validate Topic#title and Post#content should be present
+	Write a form object to wrap Topic and Post models
