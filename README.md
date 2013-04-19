@@ -1,9 +1,14 @@
 The basic idea is we do pair programming to practice TDD.
 
+How to install gems
+===
+
+  bundle
+
 How to run test
 ===
 
-	rspec model_spec.rb
+	bundle exec rspec feature_spec.rb
 
 Features you can develop
 ===

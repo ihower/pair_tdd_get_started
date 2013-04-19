@@ -1,3 +1,5 @@
+require 'bundler/setup'
+
 require 'active_record'
 
 ActiveRecord::Base.establish_connection(
