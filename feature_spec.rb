@@ -5,7 +5,8 @@ require './post'
 describe "TDD example" do
 
   it "should validate title" do
-    Topic.create.should be_false
+    topic = Topic.new
+    topic.save.should be_false
   end
 
 end
