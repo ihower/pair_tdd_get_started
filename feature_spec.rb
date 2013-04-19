@@ -1,11 +1,11 @@
 require './boot'
-require './album'
-require './person'
+require './topic'
+require './post'
 
-describe "Our TDD example" do
+describe "TDD example" do
 
-  it "should validate name" do
-    Person.create.should be_false
+  it "should validate title" do
+    Topic.create.should be_false
   end
 
 end

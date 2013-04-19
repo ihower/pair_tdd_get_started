@@ -6,11 +6,15 @@ ActiveRecord::Base.establish_connection(
 )
 
 ActiveRecord::Schema.define do
-  create_table :albums, :force => true do |t|
+  create_table :topics, :force => true do |t|
     t.string :title
   end
 
-  create_table :people, :force => true do |t|
-    t.string :name
+  create_table :posts, :force => true do |t|
+    t.integer :topic_id
+    t.string :author
+    t.text :content
   end
+
+  add_index :posts, :topic_id
 end
