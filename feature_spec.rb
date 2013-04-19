@@ -1,4 +1,6 @@
-require './model'
+require './boot'
+require './album'
+require './person'
 
 describe "Our TDD example" do
 

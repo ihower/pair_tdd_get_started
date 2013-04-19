@@ -14,12 +14,3 @@ ActiveRecord::Schema.define do
     t.string :name
   end
 end
-
-class Album < ActiveRecord::Base
-  belongs_to :person
-end
-
-class Person < ActiveRecord::Base
-  has_many :albums
-end
-
